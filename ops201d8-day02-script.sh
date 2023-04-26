@@ -6,12 +6,18 @@
 # Purpose:                      Purpose
 
 # Declaration of variables
+var="goodbye world"
 
 # Declaration of functions
 
 
 # Main
+echo $var
+echo $var
+echo $var
 
 
-
+# echo "goodbye world"
+# echo "goodbye world"
+# echo "goodbey world"
 # End
