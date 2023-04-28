@@ -6,16 +6,20 @@
 # Purpose:                      
 
 # Declare global variables
-files=("f1.txt" "f2.txt" "f3.txt" "f4.txt" "f5.txt")
+dirArray=(dir1 dir2 dir3 dir4)
 
-# Declare functions
 
-# Main
-echo ${files[4]}
-echo ${files[3]}
-echo ${files[2]}
-echo ${files[1]}
-echo ${files[0]}
+mkdir ${dirArray[0]}
+mkdir ${dirArray[1]}
+mkdir ${dirArray[2]}
+mkdir ${dirArray[3]}
+
+
+
+touch "${dirArray[0]}/test.txt"
+touch "${dirArray[1]}/test.txt"
+touch "${dirArray[2]}/test.txt"
+touch "${dirArray[3]}/test.txt"
 
 
 # End
