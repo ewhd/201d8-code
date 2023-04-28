@@ -14,7 +14,7 @@ mkdir ${dirArray[1]}
 mkdir ${dirArray[2]}
 mkdir ${dirArray[3]}
 
-# B
+# A
 
 touch "${dirArray[0]}/test.txt"
 touch "${dirArray[1]}/test.txt"
